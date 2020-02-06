@@ -3,6 +3,7 @@ Bitcoin Transaction read from web-socket
 Prerequisites:
   1. Create a Kafka Topic to stream the realtime transaction data from "wss://ws.blockchain.info/inv"
   2. Python 3.7 version
+  3. Add your local paths to Consumer_websocket.py and Redis_read.py to store the reports as excel
   
 Steps:
   1.function_call.py is the main python file that calls the other 3 functions:
